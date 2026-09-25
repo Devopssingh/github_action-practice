@@ -1,7 +1,9 @@
 name: github_action_practice
-on: push
+
+on: workflow_dispatch
+
 jobs:
-  my-job:
+  job1:
     runs-on: windows-latest
     steps:
       - name: my-step
